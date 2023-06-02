@@ -2,14 +2,19 @@ import React from 'react';
 
 /* -------------------- Section 01 -------------------- */
 // import Greet from './Section 01/02_Greet'
-import { Greet } from './Section 01/02_Greet';
+// import { Greet } from './Section 01/02_Greet';
+import Welcome from './Section 01/03_Welcome';
 
 function App() {
   return (
     <div className="App">
       <h1>React JS Fundamentals - Codevolution</h1>
 
-      <Greet />
+      {/* -------------------- Section 01 -------------------- */}
+      <>
+        {/* <Greet /> */}
+        <Welcome />
+      </>
     </div>
   );
 }
