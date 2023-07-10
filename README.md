@@ -12,6 +12,9 @@ React-JS Tutorial - by Codevolution
 
 ## Course Content
 
+- Section 01
+  - Introduction to React.
+
 ## Technologies
 
 I have used `react.js`
