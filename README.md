@@ -14,6 +14,8 @@ React-JS Tutorial - by Codevolution
 
 - Section 01
   - Introduction to React.
+  - Functional and Class components.
+  - 
 
 ## Technologies
 

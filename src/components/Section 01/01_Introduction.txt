@@ -38,7 +38,7 @@ Advantages of react
 		App.test.js (for unit testing),
 		index.css (styles for body tag)
 
-[04] components
+[04] Components
 
 	• A component represents a part of the UI.
 		e.g. App/Root component (contains other components like header, sidenav, main, footer).
