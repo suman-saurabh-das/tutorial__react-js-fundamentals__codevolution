@@ -4,6 +4,7 @@ import React from "react";
 // import Greet from "./components/Section 01/02_Greet";
 import { Greet } from "./components/Section 01/02_Greet";
 import Welcome from "./components/Section 01/03_Welcome";
+import Hello from "./components/Section 01/04_Hello";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <>
         <Greet />
         <Welcome />
+        <Hello />
       </>
     </div>
   );

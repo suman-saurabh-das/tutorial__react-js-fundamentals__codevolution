@@ -11,7 +11,7 @@ import React from 'react';
 // export default Greet
 
 /* Named export along with Arrow function */
-export const Greet = () => <h3>This is a Functional Component</h3>
+export const Greet = () => <h2>This is a Functional Component</h2>
 
 /*
     Naming convention of components : PascalCase
