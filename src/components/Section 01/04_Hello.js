@@ -25,7 +25,7 @@ const Hello = () => {
     )
 }
 
-export default Hello
+export default Hello;
 
 /*  
     We will use the React.createElement("param1", "param2", "param3"); method,
