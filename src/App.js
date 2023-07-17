@@ -10,7 +10,9 @@ import React from "react";
 // import Message from "./components/Section 01/07_Message";
 
 /* -------------------- Section 02 -------------------- */
-import Counter from "./components/Section 02/08_Counter";
+// import Counter from "./components/Section 02/08_Counter";
+import GreetPropsDestructuring from "./components/Section 02/09_GreetPropsDestructuring";
+import WelcomePropsDestructuring from "./components/Section 02/10_WelcomePropsDestructuring";
 
 function App() {
   return (
@@ -40,9 +42,11 @@ function App() {
         {/* <Message /> */}
       </>
 
-      {/* -------------------- Section 01 -------------------- */}
+      {/* -------------------- Section 02 -------------------- */}
       <>
-        <Counter />
+        {/* <Counter /> */}
+        <GreetPropsDestructuring name="Tony Stark" heroName="Ironman" />
+        <WelcomePropsDestructuring name="Steve Rogers" heroName="Captain America" />
       </>
     </div>
   );
