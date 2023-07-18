@@ -13,8 +13,9 @@ import React from "react";
 // import Counter from "./components/Section 02/08_Counter";
 // import GreetPropsDestructuring from "./components/Section 02/09_GreetPropsDestructuring";
 // import WelcomePropsDestructuring from "./components/Section 02/10_WelcomePropsDestructuring";
-import FunctionClick from "./components/Section 02/11_FunctionClick";
-import ClassClick from "./components/Section 02/12_ClassClick";
+// import FunctionClick from "./components/Section 02/11_FunctionClick";
+// import ClassClick from "./components/Section 02/12_ClassClick";
+import EventBind from "./components/Section 02/13_EventBind";
 
 function App() {
   return (
@@ -49,8 +50,9 @@ function App() {
         {/* <Counter /> */}
         {/* <GreetPropsDestructuring name="Tony Stark" heroName="Ironman" /> */}
         {/* <WelcomePropsDestructuring name="Steve Rogers" heroName="Captain America" /> */}
-        <FunctionClick />
-        <ClassClick />
+        {/* <FunctionClick /> */}
+        {/* <ClassClick /> */}
+        <EventBind />
       </>
     </div>
   );
