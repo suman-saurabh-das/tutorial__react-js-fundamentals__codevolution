@@ -15,7 +15,8 @@ import React from "react";
 // import WelcomePropsDestructuring from "./components/Section 02/10_WelcomePropsDestructuring";
 // import FunctionClick from "./components/Section 02/11_FunctionClick";
 // import ClassClick from "./components/Section 02/12_ClassClick";
-import EventBind from "./components/Section 02/13_EventBind";
+// import EventBind from "./components/Section 02/13_EventBind";
+import ParentComponent from "./components/Section 02/14_ParentComponent";
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
         {/* <WelcomePropsDestructuring name="Steve Rogers" heroName="Captain America" /> */}
         {/* <FunctionClick /> */}
         {/* <ClassClick /> */}
-        <EventBind />
+        {/* <EventBind /> */}
+        <ParentComponent />
       </>
     </div>
   );

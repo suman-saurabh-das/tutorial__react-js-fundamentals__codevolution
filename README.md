@@ -18,6 +18,12 @@ React-JS Tutorial - by Codevolution
   - Hooks update and JSX.
   - Props and State.
 
+- Section 02
+ - setState method.
+ - Destructuring props and state.
+ - Event handling and Binding event handlers.
+ - Methods as props.
+
 ## Technologies
 
 I have used `react.js`
