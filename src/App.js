@@ -16,7 +16,10 @@ import React from "react";
 // import FunctionClick from "./components/Section 02/11_FunctionClick";
 // import ClassClick from "./components/Section 02/12_ClassClick";
 // import EventBind from "./components/Section 02/13_EventBind";
-import ParentComponent from "./components/Section 02/14_ParentComponent";
+// import ParentComponent from "./components/Section 02/14_ParentComponent";
+
+/* -------------------- Section 03 -------------------- */
+import UserGreeting from "./components/Section 03/15_UserGreeting";
 
 function App() {
   return (
@@ -54,7 +57,12 @@ function App() {
         {/* <FunctionClick /> */}
         {/* <ClassClick /> */}
         {/* <EventBind /> */}
-        <ParentComponent />
+        {/* <ParentComponent /> */}
+      </>
+
+      {/* -------------------- Section 03 -------------------- */}
+      <>
+        <UserGreeting />
       </>
     </div>
   );
