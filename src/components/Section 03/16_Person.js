@@ -1,10 +1,12 @@
-/* [17] List Rendering */
+/* [17] List Rendering, [18] List and Keys */
 
 import React from 'react'
 
-function Person({ person }) {
+// function Person({ person }) {
+function Person({ person, key }) {
     return (
         <div>
+            {key}
             <h2>I am {person.name}. I am {person.age} years old. I know {person.skill}.</h2>
         </div>
     )
