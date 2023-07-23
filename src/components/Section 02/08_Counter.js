@@ -52,6 +52,7 @@ class Counter extends Component {
 
             2nd parameter along with prevState will be the props object, which can be used when the function needs data from props.
 
+            // Difference between () => () and () => {}
             // https://dev.to/muhdmirzamz/what-s-the-difference-between-and-589
         */
         this.setState((prevState, props) => ({

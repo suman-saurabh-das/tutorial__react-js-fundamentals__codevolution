@@ -40,7 +40,7 @@ class EventBind extends Component {
                 {/* Method 1 - Use bind keyword and bind the handler in the render method */}
                 {/* <button onClick={this.clickHandler.bind(this)}>Log Off !</button> */}
 
-                {/* Method 2 - Using arrow function in the render method, here we are using arrow function to run the clickHandler() method (calling the eventHandler method and returning the value), so we are using () and we can omit {} after => as there is a single return statement*/}
+                {/* Method 2 - Using arrow function in the render method, here we are using arrow function to run the clickHandler() method (calling the eventHandler method and returning the value), so we are using () and we can omit return keyword after => as there is a single return statement */}
                 {/* <button onClick={() => this.clickHandler()}>Log Off !</button> */}
 
                 {/* Method 3 - Binding event handler in constructor instead of render method */}

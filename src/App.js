@@ -19,7 +19,8 @@ import React from "react";
 // import ParentComponent from "./components/Section 02/14_ParentComponent";
 
 /* -------------------- Section 03 -------------------- */
-import UserGreeting from "./components/Section 03/15_UserGreeting";
+// import UserGreeting from "./components/Section 03/15_UserGreeting";
+import NameList from "./components/Section 03/16_NameList";
 
 function App() {
   return (
@@ -62,7 +63,8 @@ function App() {
 
       {/* -------------------- Section 03 -------------------- */}
       <>
-        <UserGreeting />
+        {/* <UserGreeting /> */}
+        <NameList />
       </>
     </div>
   );
