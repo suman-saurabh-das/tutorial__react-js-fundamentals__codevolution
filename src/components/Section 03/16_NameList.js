@@ -1,7 +1,7 @@
-/* [17] List Rendering, [18] List and Keys */
+/* [17] List Rendering, [18] List and Keys, [19] Index as key anti-pattern */
 
 import React from 'react'
-import Person from './16_Person'
+// import Person from './16_Person'
 
 function NameList() {
     /* Rendering a list of names from an array */
@@ -12,17 +12,23 @@ function NameList() {
     // )
 
     /* Rendering a list of persons from an array of objects */
-    const persons = [
-        { id: 1, name: "Adam", age: 30, skill: "React" },
-        { id: 2, name: "Charlie", age: 25, skill: "Angular" },
-        { id: 3, name: "Stacy", age: 28, skill: "Vue" },
-    ]
+    // const persons = [
+    //     { id: 1, name: "Adam", age: 30, skill: "React" },
+    //     { id: 2, name: "Charlie", age: 25, skill: "Angular" },
+    //     { id: 3, name: "Stacy", age: 28, skill: "Vue" },
+    // ]
     // const personList = persons.map(person => <h2>I am {person.name}. I am {person.age} years old. I know {person.skill}.</h2>)
     // const personList = persons.map(person => <Person person={person} />)
-    const personList = persons.map(person => <Person key={person.id} person={person} />)
+    // const personList = persons.map(person => <Person key={person.id} person={person} />)
+    // return (
+    //     <div>{personList}</div>
+    // )
 
+    /* Rendering a list of names from an array using index as key */
+    const names = ['Adam', 'Charlie', 'Stacy', 'Adam']
+    const nameList = names.map((name, index) => <h2 key={index}>{index} {name}</h2>)
     return (
-        <div>{personList}</div>
+        <div>{nameList}</div>
     )
 }
 
@@ -33,12 +39,6 @@ export default NameList
         Syntax : arrayName.map(Function)
         NOTE - map method returns a new array with each element modified based on the function.
         Here we will be using arrow function : (parameter) => return functionBody
-
-        For returning single components with single parameter
-        names.map(name => <h2>{name}</h2>)
-
-        For returning multiple components with multiple parameters
-        names.map((name) => { return (<h2>{name}</h2>) })
 
         We can simplify the return statement by moving out the list rendering logic. e.g. nameList
 
@@ -51,6 +51,17 @@ export default NameList
     NOTE - Key prop need not be an id always, it can be anything as long as it is unique.
     NOTE - Key props are not accessible in the child components. We will get this warning - "Person: `key` is not a prop. Trying to access it will result in `undefined` being returned."
 
-    Importance of key -
-    Keys help react identify which items in the list have changed, added or removed and plays a crucial role in handling UI updates efficiently.
+    Importance of key - Keys help react identify which items in the list have changed, added or removed and plays a crucial role in handling UI updates efficiently.
+
+    List (array) Index as key
+    
+    We can pass a second parameter to the map method after the elementValue, which will be the index of the element. We can now use this index as a key as it will always be an unique value.
+
+    But using index can cause serious issues in UI.
+    This example demonstrates the issue -> https://codepen.io/gopinav/pen/gQpepq
+
+    When to use Index as a key
+        1. The items in your list do not have an unique id.
+        2. The list is a static list and will not change.
+        3. The list will never be reordered or filtered.
 */
