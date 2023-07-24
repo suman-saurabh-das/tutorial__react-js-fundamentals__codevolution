@@ -24,6 +24,13 @@ React-JS Tutorial - by Codevolution
  - Event handling and Binding event handlers.
  - Methods as props.
 
+- Section 03
+  - Conditional rendering
+  - List rendering, list and keys
+  - Index as key anti-pattern
+  - Styling and CSS basics
+  - Basics of form handling
+
 ## Technologies
 
 I have used `react.js`

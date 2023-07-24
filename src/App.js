@@ -21,10 +21,11 @@ import React from "react";
 /* -------------------- Section 03 -------------------- */
 // import UserGreeting from "./components/Section 03/15_UserGreeting";
 // import NameList from "./components/Section 03/16_NameList";
-import Stylesheet from "./components/Section 03/17_Stylesheet";
-import InlineStyles from "./components/Section 03/17_InlineStyles";
-import './components/Section 03/17_appStyles.css';
-import styles from './components/Section 03/17_appStyles.module.css';
+// import Stylesheet from "./components/Section 03/17_Stylesheet";
+// import InlineStyles from "./components/Section 03/17_InlineStyles";
+// import './components/Section 03/17_appStyles.css';
+// import styles from './components/Section 03/17_appStyles.module.css';
+import Form from "./components/Section 03/18_Form";
 
 function App() {
   return (
@@ -69,10 +70,11 @@ function App() {
       <>
         {/* <UserGreeting /> */}
         {/* <NameList /> */}
-        <Stylesheet primary={true} />
-        <InlineStyles />
-        <h3 className="error">Error Message</h3>
-        <h3 className={styles.success}>Yay ! Success</h3>
+        {/* <Stylesheet primary={true} /> */}
+        {/* <InlineStyles /> */}
+        {/* <h3 className="error">Error Message</h3> */}
+        {/* <h3 className={styles.success}>Yay ! Success</h3> */}
+        <Form />
       </>
     </div>
   );
