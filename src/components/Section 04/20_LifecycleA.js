@@ -14,16 +14,16 @@ export class LifecycleA extends Component {
     }
 
     static getDerivedStateFromProps(props, state) {
-        console.log('LifecycleA -> getDerivedStateFromProps()');
+        console.log('LifecycleA -> getDerivedStateFromProps()')
         return null
     }
 
     componentDidMount() {
-        console.log('LifecycleA -> componentDidMount()');
+        console.log('LifecycleA -> componentDidMount()')
     }
 
     render() {
-        console.log('LifecycleA -> render()');
+        console.log('LifecycleA -> render()')
         return (
             <div>
                 <h3>Lifecycle A</h3>

@@ -28,7 +28,8 @@ import React from "react";
 // import Form from "./components/Section 03/18_Form";
 
 /* -------------------- Section 04 -------------------- */
-import LifecycleA from "./components/Section 04/20_LifecycleA";
+// import LifecycleA from "./components/Section 04/20_LifecycleA";
+import LifecycleC from "./components/Section 04/21_LifecycleC";
 
 function App() {
   return (
@@ -82,7 +83,8 @@ function App() {
 
       {/* -------------------- Section 04 -------------------- */}
       <>
-        <LifecycleA />
+        {/* <LifecycleA /> */}
+        <LifecycleC />
       </>
     </div>
   );
