@@ -1,7 +1,7 @@
 /* [20] Styling and CSS basics */
 
 import React from 'react'
-import './17_myStyles.css'
+import './styles/17_myStyles.css'
 
 function Stylesheet(props) {
     const setTextColor = props.primary ? 'primary' : ''
