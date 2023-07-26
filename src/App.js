@@ -29,7 +29,9 @@ import React from "react";
 
 /* -------------------- Section 04 -------------------- */
 // import LifecycleA from "./components/Section 04/20_LifecycleA";
-import LifecycleC from "./components/Section 04/21_LifecycleC";
+// import LifecycleC from "./components/Section 04/21_LifecycleC";
+import Fragments from "./components/Section 04/22_Fragments";
+import Table from "./components/Section 04/22_Table";
 
 function App() {
   return (
@@ -84,7 +86,9 @@ function App() {
       {/* -------------------- Section 04 -------------------- */}
       <>
         {/* <LifecycleA /> */}
-        <LifecycleC />
+        {/* <LifecycleC /> */}
+        <Fragments />
+        <Table />
       </>
     </div>
   );
