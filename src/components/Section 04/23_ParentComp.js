@@ -1,14 +1,15 @@
-/* [26] Pure Components */
+/* [26] Pure Components, [27] Memo */
 
 import React from 'react'
-// import { Component } from 'react'
-import { PureComponent } from 'react'
+import { Component } from 'react'
+// import { PureComponent } from 'react'
 
-import PureComp from './23_PureComp'
-import RegularComp from './23_RegularComp'
+// import PureComp from './23_PureComp'
+// import RegularComp from './23_RegularComp'
+import MemoComp from './24_MemoComp'
 
-// export class ParentComp extends Component {
-export class ParentComp extends PureComponent {
+export class ParentComp extends Component {
+    // export class ParentComp extends PureComponent {
     constructor(props) {
         super(props)
 
@@ -28,8 +29,10 @@ export class ParentComp extends PureComponent {
         return (
             <div>
                 <h4>Parent Component</h4>
-                <PureComp name={this.state.name} />
-                <RegularComp name={this.state.name} />
+                {/* <PureComp name={this.state.name} /> */}
+                {/* <RegularComp name={this.state.name} /> */}
+
+                <MemoComp name={this.state.name} />
             </div>
         )
     }

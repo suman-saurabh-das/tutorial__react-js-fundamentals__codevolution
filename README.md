@@ -31,6 +31,12 @@ React-JS Tutorial - by Codevolution
   - Styling and CSS basics
   - Basics of form handling
 
+- Section 04
+  - Component lifecycle methods
+  - Mounting and Updating lifecycle methods
+  - Fragments
+  - Pure components and memo
+
 ## Technologies
 
 I have used `react.js`
