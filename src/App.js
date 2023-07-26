@@ -30,8 +30,9 @@ import React from "react";
 /* -------------------- Section 04 -------------------- */
 // import LifecycleA from "./components/Section 04/20_LifecycleA";
 // import LifecycleC from "./components/Section 04/21_LifecycleC";
-import Fragments from "./components/Section 04/22_Fragments";
-import Table from "./components/Section 04/22_Table";
+// import Fragments from "./components/Section 04/22_Fragments";
+// import Table from "./components/Section 04/22_Table";
+import ParentComp from "./components/Section 04/23_ParentComp";
 
 function App() {
   return (
@@ -87,8 +88,9 @@ function App() {
       <>
         {/* <LifecycleA /> */}
         {/* <LifecycleC /> */}
-        <Fragments />
-        <Table />
+        {/* <Fragments /> */}
+        {/* <Table /> */}
+        <ParentComp />
       </>
     </div>
   );
