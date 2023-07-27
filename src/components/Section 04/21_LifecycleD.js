@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react'
 
-export class LifecycleD extends Component {
+class LifecycleD extends Component {
     constructor(props) {
         super(props)
 

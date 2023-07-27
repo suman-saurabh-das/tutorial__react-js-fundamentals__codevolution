@@ -32,7 +32,11 @@ import React from "react";
 // import LifecycleC from "./components/Section 04/21_LifecycleC";
 // import Fragments from "./components/Section 04/22_Fragments";
 // import Table from "./components/Section 04/22_Table";
-import ParentComp from "./components/Section 04/23_ParentComp";
+// import ParentComp from "./components/Section 04/23_ParentComp";
+
+/* -------------------- Section 05 -------------------- */
+import RefDemo1 from "./components/Section 05/25_RefDemo1";
+import RefDemo2 from "./components/Section 05/25_RefDemo2";
 
 function App() {
   return (
@@ -90,7 +94,13 @@ function App() {
         {/* <LifecycleC /> */}
         {/* <Fragments /> */}
         {/* <Table /> */}
-        <ParentComp />
+        {/* <ParentComp /> */}
+      </>
+
+      {/* -------------------- Section 05 -------------------- */}
+      <>
+        <RefDemo1 />
+        <RefDemo2 />
       </>
     </div>
   );

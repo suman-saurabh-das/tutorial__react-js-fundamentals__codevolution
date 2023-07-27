@@ -8,7 +8,7 @@ import { Component } from 'react'
 // import RegularComp from './23_RegularComp'
 import MemoComp from './24_MemoComp'
 
-export class ParentComp extends Component {
+class ParentComp extends Component {
     // export class ParentComp extends PureComponent {
     constructor(props) {
         super(props)

@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react'
 
-export class RegularComp extends Component {
+class RegularComp extends Component {
     render() {
         console.log('Regular component rendered');
         return (

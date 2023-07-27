@@ -3,7 +3,7 @@
 import React, { Component } from 'react'
 import LifecycleD from './21_LifecycleD'
 
-export class LifecycleC extends Component {
+class LifecycleC extends Component {
     constructor(props) {
         super(props)
 

@@ -3,7 +3,7 @@
 import React, { Component } from 'react'
 import ChildComponent from './14_ChildComponent'
 
-export class ParentComponent extends Component {
+class ParentComponent extends Component {
     constructor(props) {
         super(props)
 
