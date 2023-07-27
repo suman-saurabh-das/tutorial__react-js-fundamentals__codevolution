@@ -35,8 +35,9 @@ import React from "react";
 // import ParentComp from "./components/Section 04/23_ParentComp";
 
 /* -------------------- Section 05 -------------------- */
-import RefDemo1 from "./components/Section 05/25_RefDemo1";
-import RefDemo2 from "./components/Section 05/25_RefDemo2";
+// import RefDemo1 from "./components/Section 05/25_RefDemo1";
+// import RefDemo2 from "./components/Section 05/25_RefDemo2";
+import FocusInput from "./components/Section 05/26_FocusInput";
 
 function App() {
   return (
@@ -99,8 +100,9 @@ function App() {
 
       {/* -------------------- Section 05 -------------------- */}
       <>
-        <RefDemo1 />
-        <RefDemo2 />
+        {/* <RefDemo1 /> */}
+        {/* <RefDemo2 /> */}
+        <FocusInput />
       </>
     </div>
   );
