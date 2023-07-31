@@ -39,7 +39,9 @@ import React from "react";
 // import RefDemo2 from "./components/Section 05/25_RefDemo2";
 // import FocusInput from "./components/Section 05/26_FocusInput";
 // import ForwardRefInputParent from "./components/Section 05/27_ForwardRefInputParent";
-import PortalDemo from "./components/Section 05/28_PortalDemo";
+// import PortalDemo from "./components/Section 05/28_PortalDemo";
+import Hero from "./components/Section 05/29_Hero";
+import ErrorBoundary from "./components/Section 05/29_ErrorBoundary";
 
 function App() {
   return (
@@ -106,7 +108,16 @@ function App() {
         {/* <RefDemo2 /> */}
         {/* <FocusInput /> */}
         {/* <ForwardRefInputParent /> */}
-        <PortalDemo />
+        {/* <PortalDemo /> */}
+        <ErrorBoundary>
+          <Hero heroName="Ironman" />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Hero heroName="Thor" />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Hero heroName="Thanos" />
+        </ErrorBoundary>
       </>
     </div>
   );
