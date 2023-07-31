@@ -38,7 +38,8 @@ import React from "react";
 // import RefDemo1 from "./components/Section 05/25_RefDemo1";
 // import RefDemo2 from "./components/Section 05/25_RefDemo2";
 // import FocusInput from "./components/Section 05/26_FocusInput";
-import ForwardRefInputParent from "./components/Section 05/27_ForwardRefInputParent";
+// import ForwardRefInputParent from "./components/Section 05/27_ForwardRefInputParent";
+import PortalDemo from "./components/Section 05/28_PortalDemo";
 
 function App() {
   return (
@@ -104,7 +105,8 @@ function App() {
         {/* <RefDemo1 /> */}
         {/* <RefDemo2 /> */}
         {/* <FocusInput /> */}
-        <ForwardRefInputParent />
+        {/* <ForwardRefInputParent /> */}
+        <PortalDemo />
       </>
     </div>
   );
