@@ -42,8 +42,14 @@ import React from "react";
 // import PortalDemo from "./components/Section 05/28_PortalDemo";
 // import Hero from "./components/Section 05/29_Hero";
 // import ErrorBoundary from "./components/Section 05/29_ErrorBoundary";
-import HoverCounter from "./components/Section 05/30_HoverCounter";
-import ClickCounter from "./components/Section 05/30_ClickCounter";
+// import HoverCounter from "./components/Section 05/30_HoverCounter";
+// import ClickCounter from "./components/Section 05/30_ClickCounter";
+
+/* -------------------- Section 06 -------------------- */
+import HoverCounter2 from "./components/Section 06/31_HoverCounter2";
+import ClickCounter2 from "./components/Section 06/31_ClickCounter2";
+import User from "./components/Section 06/31_User";
+import Counter from "./components/Section 06/31_Counter";
 
 function App() {
   return (
@@ -120,8 +126,36 @@ function App() {
         <ErrorBoundary>
           <Hero heroName="Thanos" />
         </ErrorBoundary> */}
-        <HoverCounter name="Saurabh" />
-        <ClickCounter name="Saurabh" />
+        {/* <HoverCounter name="Saurabh" /> */}
+        {/* <ClickCounter name="Saurabh" /> */}
+      </>
+
+      {/* -------------------- Section 06 -------------------- */}
+      <>
+        {/* <HoverCounter2 /> */}
+        {/* <ClickCounter2 /> */}
+        <User name={(isLoggedIn) => isLoggedIn ? "Saurabh" : "Guest"} />
+
+        {/* Using render props */}
+        {/* <Counter render={(count, incrementCount) => (
+          <ClickCounter2 count={count} incrementCount={incrementCount} />
+        )} />
+        <Counter render={(count, incrementCount) => (
+          <HoverCounter2 count={count} incrementCount={incrementCount} />
+        )}
+        /> */}
+
+        {/* Using children props */}
+        <Counter>
+          {(count, incrementCount) => (
+            <ClickCounter2 count={count} incrementCount={incrementCount} />
+          )}
+        </Counter>
+        <Counter>
+          {(count, incrementCount) => (
+            <HoverCounter2 count={count} incrementCount={incrementCount} />
+          )}
+        </Counter>
       </>
     </div>
   );
