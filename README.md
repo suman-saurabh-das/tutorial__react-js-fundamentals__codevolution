@@ -37,6 +37,13 @@ React-JS Tutorial - by Codevolution
   - Fragments
   - Pure components and memo
 
+- Section 05
+  - Refs, Refs with class components
+  - Forwarding Refs
+  - Portals
+  - Error boundary
+  - Higher order components
+
 ## Technologies
 
 I have used `react.js`

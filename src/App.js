@@ -40,8 +40,10 @@ import React from "react";
 // import FocusInput from "./components/Section 05/26_FocusInput";
 // import ForwardRefInputParent from "./components/Section 05/27_ForwardRefInputParent";
 // import PortalDemo from "./components/Section 05/28_PortalDemo";
-import Hero from "./components/Section 05/29_Hero";
-import ErrorBoundary from "./components/Section 05/29_ErrorBoundary";
+// import Hero from "./components/Section 05/29_Hero";
+// import ErrorBoundary from "./components/Section 05/29_ErrorBoundary";
+import HoverCounter from "./components/Section 05/30_HoverCounter";
+import ClickCounter from "./components/Section 05/30_ClickCounter";
 
 function App() {
   return (
@@ -109,7 +111,7 @@ function App() {
         {/* <FocusInput /> */}
         {/* <ForwardRefInputParent /> */}
         {/* <PortalDemo /> */}
-        <ErrorBoundary>
+        {/* <ErrorBoundary>
           <Hero heroName="Ironman" />
         </ErrorBoundary>
         <ErrorBoundary>
@@ -117,7 +119,9 @@ function App() {
         </ErrorBoundary>
         <ErrorBoundary>
           <Hero heroName="Thanos" />
-        </ErrorBoundary>
+        </ErrorBoundary> */}
+        <HoverCounter name="Saurabh" />
+        <ClickCounter name="Saurabh" />
       </>
     </div>
   );
