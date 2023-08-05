@@ -1,4 +1,4 @@
-/* [33, 34, 35] Higher order components */
+/* [33], [34] & [35] Higher order components */
 
 import React, { Component } from 'react'
 import withCounter from './30_withCounter'

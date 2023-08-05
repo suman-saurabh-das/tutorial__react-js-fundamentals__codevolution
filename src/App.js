@@ -46,10 +46,12 @@ import React from "react";
 // import ClickCounter from "./components/Section 05/30_ClickCounter";
 
 /* -------------------- Section 06 -------------------- */
-import HoverCounter2 from "./components/Section 06/31_HoverCounter2";
-import ClickCounter2 from "./components/Section 06/31_ClickCounter2";
-import User from "./components/Section 06/31_User";
-import Counter from "./components/Section 06/31_Counter";
+// import HoverCounter2 from "./components/Section 06/31_HoverCounter2";
+// import ClickCounter2 from "./components/Section 06/31_ClickCounter2";
+// import User from "./components/Section 06/31_User";
+// import Counter from "./components/Section 06/31_Counter";
+import ParentComponent from './components/Section 06/pages/32_ParentComponent';
+import { UserProvider } from "./components/Section 06/32_UserContext";
 
 function App() {
   return (
@@ -134,28 +136,32 @@ function App() {
       <>
         {/* <HoverCounter2 /> */}
         {/* <ClickCounter2 /> */}
-        <User name={(isLoggedIn) => isLoggedIn ? "Saurabh" : "Guest"} />
+        {/* <User name={(isLoggedIn) => isLoggedIn ? "Saurabh" : "Guest"} /> */}
 
         {/* Using render props */}
         {/* <Counter render={(count, incrementCount) => (
-          <ClickCounter2 count={count} incrementCount={incrementCount} />
-        )} />
-        <Counter render={(count, incrementCount) => (
           <HoverCounter2 count={count} incrementCount={incrementCount} />
         )}
-        /> */}
+        />
+        <Counter render={(count, incrementCount) => (
+          <ClickCounter2 count={count} incrementCount={incrementCount} />
+        )} /> */}
 
         {/* Using children props */}
-        <Counter>
-          {(count, incrementCount) => (
-            <ClickCounter2 count={count} incrementCount={incrementCount} />
-          )}
-        </Counter>
-        <Counter>
+        {/* <Counter>
           {(count, incrementCount) => (
             <HoverCounter2 count={count} incrementCount={incrementCount} />
           )}
         </Counter>
+        <Counter>
+          {(count, incrementCount) => (
+            <ClickCounter2 count={count} incrementCount={incrementCount} />
+          )}
+        </Counter> */}
+
+        <UserProvider value="Saurabh">
+          <ParentComponent />
+        </UserProvider>
       </>
     </div>
   );
