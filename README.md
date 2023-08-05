@@ -44,6 +44,11 @@ React-JS Tutorial - by Codevolution
   - Error boundary
   - Higher order components
 
+- Section 06
+  - Render props
+  - Context
+  - HTTP GET and POST request
+
 ## Technologies
 
 I have used `react.js`
@@ -64,7 +69,7 @@ All files have been created based on my understanding of the videos.
 
 ## Status
 
-- React JS Fundamentals is in progress.
+- React JS Fundamentals is completed on 05-Aug-2023.
 
 ## Credits
 

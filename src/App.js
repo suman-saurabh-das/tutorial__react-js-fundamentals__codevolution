@@ -52,7 +52,8 @@ import React from "react";
 // import Counter from "./components/Section 06/31_Counter";
 // import ParentComponent from './components/Section 06/pages/32_ParentComponent';
 // import { UserProvider } from "./components/Section 06/32_UserContext";
-import PostList from "./components/Section 06/33_PostList";
+// import PostList from "./components/Section 06/33_PostList";
+import PostForm from "./components/Section 06/34_PostForm";
 
 function App() {
   return (
@@ -164,7 +165,8 @@ function App() {
           <ParentComponent />
         </UserProvider> */}
 
-        <PostList />
+        {/* <PostList /> */}
+        <PostForm />
       </>
     </div>
   );
