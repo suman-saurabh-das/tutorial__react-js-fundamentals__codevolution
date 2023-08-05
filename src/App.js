@@ -50,8 +50,9 @@ import React from "react";
 // import ClickCounter2 from "./components/Section 06/31_ClickCounter2";
 // import User from "./components/Section 06/31_User";
 // import Counter from "./components/Section 06/31_Counter";
-import ParentComponent from './components/Section 06/pages/32_ParentComponent';
-import { UserProvider } from "./components/Section 06/32_UserContext";
+// import ParentComponent from './components/Section 06/pages/32_ParentComponent';
+// import { UserProvider } from "./components/Section 06/32_UserContext";
+import PostList from "./components/Section 06/33_PostList";
 
 function App() {
   return (
@@ -159,9 +160,11 @@ function App() {
           )}
         </Counter> */}
 
-        <UserProvider value="Saurabh">
+        {/* <UserProvider value="Saurabh">
           <ParentComponent />
-        </UserProvider>
+        </UserProvider> */}
+
+        <PostList />
       </>
     </div>
   );
