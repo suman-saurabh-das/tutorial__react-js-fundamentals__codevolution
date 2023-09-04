@@ -19,10 +19,10 @@ React-JS Tutorial - by Codevolution
   - Props and State.
 
 - Section 02
- - setState method.
- - Destructuring props and state.
- - Event handling and Binding event handlers.
- - Methods as props.
+  - setState method.
+  - Destructuring props and state.
+  - Event handling and Binding event handlers.
+  - Methods as props.
 
 - Section 03
   - Conditional rendering
